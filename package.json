@@ -1,0 +1,15 @@
+{
+  "name": "ai-assisted-qa-workflow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Senior AI QA assessment: human-reviewed login tests, Playwright, and AI failure triage",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "qa": "node src/cli.js",
+    "test": "node --test tests/*.test.js",
+    "demo:app": "node demo/server.js"
+  },
+  "dependencies": { "ajv": "8.20.0" },
+  "devDependencies": { "@playwright/test": "1.63.0" }
+}

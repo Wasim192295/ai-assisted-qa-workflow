@@ -1,0 +1,15 @@
+{
+  "summary": {
+    "total": 12,
+    "passed": 12,
+    "failed": 0,
+    "flaky": 0,
+    "skipped": 0,
+    "interrupted": 0,
+    "reportErrors": 0
+  },
+  "failures": [],
+  "exitCode": 0,
+  "bugInjection": null,
+  "timestamp": "2026-09-09T12:07:37.648Z"
+}

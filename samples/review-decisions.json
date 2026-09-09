@@ -1,0 +1,392 @@
+{
+  "cases": {
+    "UI-001": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "1a5a2205b7626336a4ee09ca299dc243a9928dc8bcd5b4aed34f7206f74022b2"
+    },
+    "UI-002": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "540e5931057f4112030309987d04f1ff7a78010edf4bc9080118d2f3eedee771"
+    },
+    "UI-003": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "63a4d3721ef0b4bde63e6ed7c7d1571fea833cbad152033b611740112294d590"
+    },
+    "UI-004": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "94104bfcbfc5aaa48426cc44f81ea8879a1c5646404298f569ba964b6c2ebe04"
+    },
+    "UI-005": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "6c1d121c5592a81d4e73941a2bbb6fb65136473ead2cf3ffac9e7c71a5b34fe3"
+    },
+    "API-001": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "d283a58beb0db7982f13c9570aa64052c8a7ceee324f6a5c4850262f3d06fb39"
+    },
+    "API-002": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "874df513dcba55df09466f700bc4cb314ba58bbdc52f8cf879db3f018ceb36ba"
+    },
+    "API-003": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "ed862e60baaa1fc37ab85787ca4b03ae0faadb6f024a477a40aabceaab563d88"
+    },
+    "API-004": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "06e2744f986bbe18542ae1e3b6590b7d367d7651cbec1405cb01e13fe251e1b9"
+    },
+    "API-005": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "7ba6ccc47ff25cecce5c047fd9e59636bbfc19c4bbc12d1471ffecebb3fe2021"
+    },
+    "UI-006": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "96f377b51f4e5b6d94287fbdb4ddaca2e7488905e959e41527a57d0a7a02f099"
+    },
+    "API-006": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "32c3c76ec7a60a6987e9e3eacba935b6bc40259f5024d9bd712b4bf3e2a4ad7a"
+    }
+  },
+  "automation": {
+    "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/UI-001.spec.js": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "b587784b9bf626cb59f11da2fac42e43ac7c6d22f511170ec7f463e36d722b80"
+    },
+    "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/UI-002.spec.js": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "ecfe886333d8b39e20cb1dd9cafebd0e961bf0c3a747f5e7510982085f44ed8b"
+    },
+    "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/UI-003.spec.js": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "e5eb8e92d755a4a492d606806461c1296cdc50ae886ebeb871fdca1f6f3e15bf"
+    },
+    "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/UI-004.spec.js": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "85d4b8d44a39f548d04ffd7ea0a9d60a0d2a782fb443ae18bb85240ce4e51300"
+    },
+    "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/UI-005.spec.js": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "dfc5e64ed2d750e29a38fa60962723e34b57dd83463cf807d7dba2fa9ea9c289"
+    },
+    "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/API-001.spec.js": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "1a754d74facc8d237f2750d5a8cb7d9c8d83b320d4638155e2c511da17c1321e"
+    },
+    "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/API-002.spec.js": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "214936a83051535ff33689cfd1e5db9c71ec56283a95a102d1564baad40d2ebc"
+    },
+    "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/API-003.spec.js": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "5650162ea4a7eac352641c0e87ecbdefaada6dbef0534a2d7ce18ff3f108324e"
+    },
+    "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/API-004.spec.js": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "7d8bcabbcc9e27a1b9a363d7870e60306b97328ec3b463b82e72ed033e8619f0"
+    },
+    "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/API-005.spec.js": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "04070bf1c6d0833eef1e42b26b268e7f5d328799f0ef2d3ef8a48072a6c527b9"
+    },
+    "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/UI-006.spec.js": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "f5539a0917932a53ea6cc195ad1a39c02be21366235d981708fffa030decd7a9"
+    },
+    "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/API-006.spec.js": {
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "3413f91886138f291997aeba7fcd05092461eb38fddf0bcdb9fad57007169a5f"
+    }
+  },
+  "history": [
+    {
+      "kind": "cases",
+      "id": "UI-001",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "1a5a2205b7626336a4ee09ca299dc243a9928dc8bcd5b4aed34f7206f74022b2"
+    },
+    {
+      "kind": "cases",
+      "id": "UI-002",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "540e5931057f4112030309987d04f1ff7a78010edf4bc9080118d2f3eedee771"
+    },
+    {
+      "kind": "cases",
+      "id": "UI-003",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "63a4d3721ef0b4bde63e6ed7c7d1571fea833cbad152033b611740112294d590"
+    },
+    {
+      "kind": "cases",
+      "id": "UI-004",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "94104bfcbfc5aaa48426cc44f81ea8879a1c5646404298f569ba964b6c2ebe04"
+    },
+    {
+      "kind": "cases",
+      "id": "UI-005",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "6c1d121c5592a81d4e73941a2bbb6fb65136473ead2cf3ffac9e7c71a5b34fe3"
+    },
+    {
+      "kind": "cases",
+      "id": "API-001",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "d283a58beb0db7982f13c9570aa64052c8a7ceee324f6a5c4850262f3d06fb39"
+    },
+    {
+      "kind": "cases",
+      "id": "API-002",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "874df513dcba55df09466f700bc4cb314ba58bbdc52f8cf879db3f018ceb36ba"
+    },
+    {
+      "kind": "cases",
+      "id": "API-003",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "ed862e60baaa1fc37ab85787ca4b03ae0faadb6f024a477a40aabceaab563d88"
+    },
+    {
+      "kind": "cases",
+      "id": "API-004",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "06e2744f986bbe18542ae1e3b6590b7d367d7651cbec1405cb01e13fe251e1b9"
+    },
+    {
+      "kind": "cases",
+      "id": "API-005",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "7ba6ccc47ff25cecce5c047fd9e59636bbfc19c4bbc12d1471ffecebb3fe2021"
+    },
+    {
+      "kind": "cases",
+      "id": "UI-006",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "96f377b51f4e5b6d94287fbdb4ddaca2e7488905e959e41527a57d0a7a02f099"
+    },
+    {
+      "kind": "cases",
+      "id": "API-006",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Reviewed login coverage, fixture data and expected results; candidate sign-off remains separate",
+      "timestamp": "2026-09-09T12:03:59.422Z",
+      "digest": "32c3c76ec7a60a6987e9e3eacba935b6bc40259f5024d9bd712b4bf3e2a4ad7a"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/UI-001.spec.js",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "b587784b9bf626cb59f11da2fac42e43ac7c6d22f511170ec7f463e36d722b80"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/UI-002.spec.js",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "ecfe886333d8b39e20cb1dd9cafebd0e961bf0c3a747f5e7510982085f44ed8b"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/UI-003.spec.js",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "e5eb8e92d755a4a492d606806461c1296cdc50ae886ebeb871fdca1f6f3e15bf"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/UI-004.spec.js",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "85d4b8d44a39f548d04ffd7ea0a9d60a0d2a782fb443ae18bb85240ce4e51300"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/UI-005.spec.js",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "dfc5e64ed2d750e29a38fa60962723e34b57dd83463cf807d7dba2fa9ea9c289"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/API-001.spec.js",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "1a754d74facc8d237f2750d5a8cb7d9c8d83b320d4638155e2c511da17c1321e"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/API-002.spec.js",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "214936a83051535ff33689cfd1e5db9c71ec56283a95a102d1564baad40d2ebc"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/API-003.spec.js",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "5650162ea4a7eac352641c0e87ecbdefaada6dbef0534a2d7ce18ff3f108324e"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/API-004.spec.js",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "7d8bcabbcc9e27a1b9a363d7870e60306b97328ec3b463b82e72ed033e8619f0"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/API-005.spec.js",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "04070bf1c6d0833eef1e42b26b268e7f5d328799f0ef2d3ef8a48072a6c527b9"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/UI-006.spec.js",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "f5539a0917932a53ea6cc195ad1a39c02be21366235d981708fffa030decd7a9"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/dc1bb06c-03b2-4a6b-ace5-5d82e8346631/API-006.spec.js",
+      "decision": "approve",
+      "reviewer": "Prototype verification (assistant; demo only)",
+      "note": "Inspected all 12 scripts against reviewed login cases and local app contract",
+      "timestamp": "2026-09-09T12:04:10.507Z",
+      "digest": "3413f91886138f291997aeba7fcd05092461eb38fddf0bcdb9fad57007169a5f"
+    }
+  ]
+}

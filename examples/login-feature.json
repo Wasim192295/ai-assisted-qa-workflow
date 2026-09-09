@@ -1,0 +1,27 @@
+{
+  "feature": "User Login",
+  "acceptanceCriteria": [
+    { "id": "AC-01", "description": "User can log in with valid credentials" },
+    { "id": "AC-02", "description": "Invalid credentials should show an error" },
+    { "id": "AC-03", "description": "Username and password are mandatory" },
+    { "id": "AC-04", "description": "Locked users cannot log in" },
+    { "id": "AC-05", "description": "Login API returns appropriate status codes" }
+  ],
+  "contract": {
+    "uiPath": "/",
+    "apiPath": "/api/login",
+    "usernameLabel": "Username",
+    "passwordLabel": "Password",
+    "submitName": "Log in",
+    "accounts": {
+      "active": { "username": "qa.user", "password": "DemoPass123!" },
+      "locked": { "username": "locked.user", "password": "DemoPass123!" }
+    },
+    "responses": {
+      "valid": { "status": 200, "message": "Welcome, qa.user!" },
+      "invalid": { "status": 401, "message": "Invalid credentials" },
+      "missing": { "status": 400, "message": "Username and password are required" },
+      "locked": { "status": 423, "message": "Account is locked" }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "id": "UI-006",
+      "type": "UI",
+      "title": "Reject submission when both fields are empty",
+      "requirementIds": ["AC-03"],
+      "preconditions": ["Login page is available; no user is logged in"],
+      "steps": ["Open the login page", "Leave Username and Password empty", "Click Log in", "Read the validation message"],
+      "data": { "username": "", "password": "" },
+      "expected": { "status": 400, "message": "Username and password are required" }
+    },
+    {
+      "id": "API-006",
+      "type": "API",
+      "title": "Reject API login when both credentials are empty",
+      "requirementIds": ["AC-03", "AC-05"],
+      "preconditions": ["Login API is available"],
+      "steps": ["POST /api/login with empty username and password strings", "Verify HTTP 400 and the required-fields message"],
+      "data": { "username": "", "password": "" },
+      "expected": { "status": 400, "message": "Username and password are required" }
+    }
+  ]
+}

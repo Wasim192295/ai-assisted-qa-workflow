@@ -1,0 +1,56 @@
+{
+  "_sample": "Synthetic Playwright-shaped report, hand-authored to demonstrate all five requested categories plus uncertain and flaky outcomes. This is not a real execution.",
+  "suites": [
+    {
+      "title": "login.spec.js",
+      "file": "login.spec.js",
+      "suites": [
+        {
+          "title": "User Login",
+          "specs": [
+            {
+              "title": "UI-001: obsolete login button locator",
+              "tests": [{ "projectName": "chromium", "expectedStatus": "passed", "results": [{ "status": "timedOut", "errors": [{ "message": "locator.click: Timeout 5000ms exceeded. Call log: waiting for getByRole('button', { name: 'Sign in' }). Locator resolved to 0 elements." }] }] }]
+            },
+            {
+              "title": "API-005: locked account accepted",
+              "tests": [{ "projectName": "chromium", "expectedStatus": "passed", "results": [{ "status": "failed", "errors": [{ "message": "AC-04: Locked users cannot log in. Verified fixture locked.user has locked=true. POST /api/login for locked.user: received HTTP 200 with Welcome, locked.user! Expected: 423. Reproduced manually against the demo defect toggle." }] }] }]
+            },
+            {
+              "title": "API-001: login service unavailable",
+              "tests": [{ "projectName": "chromium", "expectedStatus": "passed", "results": [{ "status": "failed", "errors": [{ "message": "apiRequestContext.post: connect ECONNREFUSED 127.0.0.1:4173" }] }] }]
+            },
+            {
+              "title": "API-002: fixture setup failed",
+              "tests": [{ "projectName": "chromium", "expectedStatus": "passed", "results": [{ "status": "failed", "errors": [{ "message": "Setup failed: test account qa.user not found in the fixture store." }] }] }]
+            },
+            {
+              "title": "UI-002: error copy differs",
+              "tests": [{ "projectName": "chromium", "expectedStatus": "passed", "results": [{ "status": "failed", "errors": [{ "message": "expect(locator).toHaveText: Expected: Invalid credentials. Received: Incorrect username or password." }] }] }]
+            },
+            {
+              "title": "UI-003: unexplained timeout",
+              "tests": [{ "projectName": "chromium", "expectedStatus": "passed", "results": [{ "status": "timedOut", "errors": [{ "message": "Test timeout of 15000ms exceeded. No trace was attached." }] }] }]
+            },
+            {
+              "title": "API-003: connection recovered on retry",
+              "tests": [{ "projectName": "chromium", "expectedStatus": "passed", "results": [
+                { "status": "failed", "retry": 0, "errors": [{ "message": "connect ECONNREFUSED 127.0.0.1:4173" }] },
+                { "status": "passed", "retry": 1, "errors": [] }
+              ] }]
+            },
+            {
+              "title": "API-004: missing password rejected",
+              "tests": [{ "projectName": "chromium", "expectedStatus": "passed", "results": [{ "status": "passed", "errors": [] }] }]
+            },
+            {
+              "title": "UI-004: skipped demonstration",
+              "tests": [{ "projectName": "chromium", "expectedStatus": "skipped", "results": [{ "status": "skipped", "errors": [] }] }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

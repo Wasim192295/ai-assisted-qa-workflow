@@ -1,0 +1,188 @@
+{
+  "sourceReport": "examples/failure-report.json",
+  "provenance": {
+    "provider": "mock",
+    "model": "deterministic-demo-v1",
+    "mocked": true,
+    "timestamp": "2026-09-09T12:10:31.947Z"
+  },
+  "summary": {
+    "total": 9,
+    "passed": 1,
+    "failed": 6,
+    "flaky": 1,
+    "skipped": 1,
+    "interrupted": 0,
+    "reportErrors": 0
+  },
+  "classifications": [
+    {
+      "failureId": "failure-e6ed7dcacc05",
+      "category": "Script/locator issue",
+      "confidence": 0.75,
+      "evidence": [
+        "locator.click: Timeout 5000ms exceeded. Call log: waiting for getByRole('button', { name: 'Sign in' }). Locator resolved to 0 elements."
+      ],
+      "reasoning": "The locator could not uniquely find its target; a UI behavior change remains an alternative.",
+      "nextAction": "Inspect the DOM and trace against the reviewed locator and required UI behavior.",
+      "failure": {
+        "id": "failure-e6ed7dcacc05",
+        "caseId": "UI-001",
+        "title": "login.spec.js > User Login > UI-001: obsolete login button locator",
+        "project": "chromium",
+        "kind": "failed",
+        "file": "login.spec.js",
+        "attempts": 1,
+        "finalStatus": "timedOut",
+        "errors": [
+          "locator.click: Timeout 5000ms exceeded. Call log: waiting for getByRole('button', { name: 'Sign in' }). Locator resolved to 0 elements."
+        ]
+      },
+      "humanReviewRequired": true
+    },
+    {
+      "failureId": "failure-22bc3977f60a",
+      "category": "Product defect",
+      "confidence": 0.85,
+      "evidence": [
+        "AC-04: Locked users cannot log in. Verified fixture locked.user has locked=true. POST /api/login for locked.user: received HTTP 200 with Welcome, locked.user! Expected: 423. Reproduced manually against the demo defect toggle."
+      ],
+      "reasoning": "The supplied reproduction and AC-04 context report successful login for the known locked account.",
+      "nextAction": "Verify the account is locked and reproduce manually; raise a defect only after confirmation.",
+      "failure": {
+        "id": "failure-22bc3977f60a",
+        "caseId": "API-005",
+        "title": "login.spec.js > User Login > API-005: locked account accepted",
+        "project": "chromium",
+        "kind": "failed",
+        "file": "login.spec.js",
+        "attempts": 1,
+        "finalStatus": "failed",
+        "errors": [
+          "AC-04: Locked users cannot log in. Verified fixture locked.user has locked=true. POST /api/login for locked.user: received HTTP 200 with Welcome, locked.user! Expected: 423. Reproduced manually against the demo defect toggle."
+        ]
+      },
+      "humanReviewRequired": true
+    },
+    {
+      "failureId": "failure-1ea705e589e9",
+      "category": "Environment issue",
+      "confidence": 0.9,
+      "evidence": [
+        "apiRequestContext.post: connect ECONNREFUSED 127.0.0.1:4173"
+      ],
+      "reasoning": "Connectivity or runtime availability evidence points to the test environment.",
+      "nextAction": "Check the service health, base URL, and installed browser before rerunning.",
+      "failure": {
+        "id": "failure-1ea705e589e9",
+        "caseId": "API-001",
+        "title": "login.spec.js > User Login > API-001: login service unavailable",
+        "project": "chromium",
+        "kind": "failed",
+        "file": "login.spec.js",
+        "attempts": 1,
+        "finalStatus": "failed",
+        "errors": [
+          "apiRequestContext.post: connect ECONNREFUSED 127.0.0.1:4173"
+        ]
+      },
+      "humanReviewRequired": true
+    },
+    {
+      "failureId": "failure-37b770be5176",
+      "category": "Test data issue",
+      "confidence": 0.85,
+      "evidence": [
+        "Setup failed: test account qa.user not found in the fixture store."
+      ],
+      "reasoning": "The failure explicitly identifies unavailable test setup data.",
+      "nextAction": "Restore the documented fixture account and verify its state before rerunning.",
+      "failure": {
+        "id": "failure-37b770be5176",
+        "caseId": "API-002",
+        "title": "login.spec.js > User Login > API-002: fixture setup failed",
+        "project": "chromium",
+        "kind": "failed",
+        "file": "login.spec.js",
+        "attempts": 1,
+        "finalStatus": "failed",
+        "errors": [
+          "Setup failed: test account qa.user not found in the fixture store."
+        ]
+      },
+      "humanReviewRequired": true
+    },
+    {
+      "failureId": "failure-86f9941ca5bc",
+      "category": "Assertion mismatch",
+      "confidence": 0.6,
+      "evidence": [
+        "expect(locator).toHaveText: Expected: Invalid credentials. Received: Incorrect username or password."
+      ],
+      "reasoning": "Expected and observed values differ; the text alone cannot establish whether the test or product is wrong.",
+      "nextAction": "Compare the actual response with the approved acceptance criterion and API contract.",
+      "failure": {
+        "id": "failure-86f9941ca5bc",
+        "caseId": "UI-002",
+        "title": "login.spec.js > User Login > UI-002: error copy differs",
+        "project": "chromium",
+        "kind": "failed",
+        "file": "login.spec.js",
+        "attempts": 1,
+        "finalStatus": "failed",
+        "errors": [
+          "expect(locator).toHaveText: Expected: Invalid credentials. Received: Incorrect username or password."
+        ]
+      },
+      "humanReviewRequired": true
+    },
+    {
+      "failureId": "failure-ab6d96e32f9d",
+      "category": "Needs investigation",
+      "confidence": 0.25,
+      "evidence": [
+        "Test timeout of 15000ms exceeded. No trace was attached."
+      ],
+      "reasoning": "The supplied text is insufficient to distinguish script, product, data, or infrastructure causes.",
+      "nextAction": "Inspect the trace, application logs, and approved expectation, then reproduce the failure.",
+      "failure": {
+        "id": "failure-ab6d96e32f9d",
+        "caseId": "UI-003",
+        "title": "login.spec.js > User Login > UI-003: unexplained timeout",
+        "project": "chromium",
+        "kind": "failed",
+        "file": "login.spec.js",
+        "attempts": 1,
+        "finalStatus": "timedOut",
+        "errors": [
+          "Test timeout of 15000ms exceeded. No trace was attached."
+        ]
+      },
+      "humanReviewRequired": true
+    },
+    {
+      "failureId": "failure-b00368e8cc7d",
+      "category": "Environment issue",
+      "confidence": 0.9,
+      "evidence": [
+        "connect ECONNREFUSED 127.0.0.1:4173"
+      ],
+      "reasoning": "Connectivity or runtime availability evidence points to the test environment.",
+      "nextAction": "Check the service health, base URL, and installed browser before rerunning.",
+      "failure": {
+        "id": "failure-b00368e8cc7d",
+        "caseId": "API-003",
+        "title": "login.spec.js > User Login > API-003: connection recovered on retry",
+        "project": "chromium",
+        "kind": "flaky",
+        "file": "login.spec.js",
+        "attempts": 2,
+        "finalStatus": "passed",
+        "errors": [
+          "connect ECONNREFUSED 127.0.0.1:4173"
+        ]
+      },
+      "humanReviewRequired": true
+    }
+  ]
+}

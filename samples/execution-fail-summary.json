@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "total": 12,
+    "passed": 10,
+    "failed": 2,
+    "flaky": 0,
+    "skipped": 0,
+    "interrupted": 0,
+    "reportErrors": 0
+  },
+  "failures": [
+    {
+      "id": "failure-30b2215a5648",
+      "caseId": "API-005",
+      "title": "API-005.spec.js > API-005: Reject a locked account",
+      "project": "default",
+      "kind": "failed",
+      "file": "API-005.spec.js",
+      "attempts": 1,
+      "finalStatus": "failed",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 423\nReceived: 200\n\n   5 | test(\"API-005: Reject a locked account\", async ({ request }) => {\n   6 |   const response = await request.post(\"/api/login\", { data: {\"username\":\"locked.user\",\"password\":\"DemoPass123!\"} });\n>  7 |   expect(response.status()).toBe(423);\n     |                             ^\n   8 |   expect(await response.json()).toEqual({ message: \"Account is locked\" });\n   9 | });\n  10 |\n    at C:\\Git workspace\\work\\verification\\automation\\dc1bb06c-03b2-4a6b-ace5-5d82e8346631\\API-005.spec.js:7:29"
+      ]
+    },
+    {
+      "id": "failure-438cfe173fed",
+      "caseId": "UI-005",
+      "title": "UI-005.spec.js > UI-005: Reject a locked account",
+      "project": "default",
+      "kind": "failed",
+      "file": "UI-005.spec.js",
+      "attempts": 1,
+      "finalStatus": "failed",
+      "errors": [
+        "Error: expect(locator).toHaveText(expected) failed\n\nLocator:  getByRole('status')\nExpected: \"Account is locked\"\nReceived: \"Welcome, locked.user!\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveText\" getByRole('status') with timeout 5000ms\n  - waiting for getByRole('status')\n    14 × locator resolved to <div role=\"status\" aria-live=\"polite\">Welcome, locked.user!</div>\n       - unexpected value \"Welcome, locked.user!\"\n\n\n   8 |   await page.getByLabel(\"Password\", { exact: true }).fill(\"DemoPass123!\");\n   9 |   await page.getByRole('button', { name: \"Log in\", exact: true }).click();\n> 10 |   await expect(page.getByRole('status')).toHaveText(\"Account is locked\");\n     |                                          ^\n  11 | });\n  12 |\n    at C:\\Git workspace\\work\\verification\\automation\\dc1bb06c-03b2-4a6b-ace5-5d82e8346631\\UI-005.spec.js:10:42"
+      ]
+    }
+  ],
+  "exitCode": 1,
+  "bugInjection": "locked-login",
+  "timestamp": "2026-09-09T12:08:14.295Z"
+}
