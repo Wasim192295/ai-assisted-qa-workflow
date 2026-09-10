@@ -1,0 +1,458 @@
+{
+  "feature": {
+    "feature": "User Login",
+    "acceptanceCriteria": [
+      {
+        "id": "AC-01",
+        "description": "User can log in with valid credentials"
+      },
+      {
+        "id": "AC-02",
+        "description": "Invalid credentials should show an error"
+      },
+      {
+        "id": "AC-03",
+        "description": "Username and password are mandatory"
+      },
+      {
+        "id": "AC-04",
+        "description": "Locked users cannot log in"
+      },
+      {
+        "id": "AC-05",
+        "description": "Login API returns appropriate status codes"
+      }
+    ],
+    "contract": {
+      "uiPath": "/",
+      "apiPath": "/api/login",
+      "usernameLabel": "Username",
+      "passwordLabel": "Password",
+      "submitName": "Log in",
+      "accounts": {
+        "active": {
+          "username": "qa.user",
+          "password": "DemoPass123!"
+        },
+        "locked": {
+          "username": "locked.user",
+          "password": "DemoPass123!"
+        }
+      },
+      "responses": {
+        "valid": {
+          "status": 200,
+          "message": "Welcome, qa.user!"
+        },
+        "invalid": {
+          "status": 401,
+          "message": "Invalid credentials"
+        },
+        "missing": {
+          "status": 400,
+          "message": "Username and password are required"
+        },
+        "locked": {
+          "status": 423,
+          "message": "Account is locked"
+        }
+      }
+    }
+  },
+  "cases": [
+    {
+      "id": "UI-001",
+      "type": "UI",
+      "title": "Log in with valid credentials",
+      "requirementIds": [
+        "AC-01"
+      ],
+      "preconditions": [
+        "Login page is available; no user is logged in",
+        "Demo active and locked accounts match the documented contract"
+      ],
+      "steps": [
+        "Open the login page",
+        "Enter Username: \"qa.user\"",
+        "Enter Password: \"DemoPass123!\"",
+        "Click Log in",
+        "Verify the visible message: Welcome, qa.user!"
+      ],
+      "data": {
+        "username": "qa.user",
+        "password": "DemoPass123!"
+      },
+      "expected": {
+        "status": 200,
+        "message": "Welcome, qa.user!"
+      }
+    },
+    {
+      "id": "UI-002",
+      "type": "UI",
+      "title": "Reject invalid credentials",
+      "requirementIds": [
+        "AC-02"
+      ],
+      "preconditions": [
+        "Login page is available; no user is logged in",
+        "Demo active and locked accounts match the documented contract"
+      ],
+      "steps": [
+        "Open the login page",
+        "Enter Username: \"qa.user\"",
+        "Enter Password: \"WrongPassword!\"",
+        "Click Log in",
+        "Verify the visible message: Invalid credentials"
+      ],
+      "data": {
+        "username": "qa.user",
+        "password": "WrongPassword!"
+      },
+      "expected": {
+        "status": 401,
+        "message": "Invalid credentials"
+      }
+    },
+    {
+      "id": "UI-003",
+      "type": "UI",
+      "title": "Require a username",
+      "requirementIds": [
+        "AC-03"
+      ],
+      "preconditions": [
+        "Login page is available; no user is logged in",
+        "Demo active and locked accounts match the documented contract"
+      ],
+      "steps": [
+        "Open the login page",
+        "Enter Username: \"\"",
+        "Enter Password: \"DemoPass123!\"",
+        "Click Log in",
+        "Verify the visible message: Username and password are required"
+      ],
+      "data": {
+        "username": "",
+        "password": "DemoPass123!"
+      },
+      "expected": {
+        "status": 400,
+        "message": "Username and password are required"
+      }
+    },
+    {
+      "id": "UI-004",
+      "type": "UI",
+      "title": "Require a password",
+      "requirementIds": [
+        "AC-03"
+      ],
+      "preconditions": [
+        "Login page is available; no user is logged in",
+        "Demo active and locked accounts match the documented contract"
+      ],
+      "steps": [
+        "Open the login page",
+        "Enter Username: \"qa.user\"",
+        "Enter Password: \"\"",
+        "Click Log in",
+        "Verify the visible message: Username and password are required"
+      ],
+      "data": {
+        "username": "qa.user",
+        "password": ""
+      },
+      "expected": {
+        "status": 400,
+        "message": "Username and password are required"
+      }
+    },
+    {
+      "id": "UI-005",
+      "type": "UI",
+      "title": "Reject a locked account",
+      "requirementIds": [
+        "AC-04"
+      ],
+      "preconditions": [
+        "Login page is available; no user is logged in",
+        "Demo active and locked accounts match the documented contract"
+      ],
+      "steps": [
+        "Open the login page",
+        "Enter Username: \"locked.user\"",
+        "Enter Password: \"DemoPass123!\"",
+        "Click Log in",
+        "Verify the visible message: Account is locked"
+      ],
+      "data": {
+        "username": "locked.user",
+        "password": "DemoPass123!"
+      },
+      "expected": {
+        "status": 423,
+        "message": "Account is locked"
+      }
+    },
+    {
+      "id": "API-001",
+      "type": "API",
+      "title": "Log in with valid credentials",
+      "requirementIds": [
+        "AC-01",
+        "AC-05"
+      ],
+      "preconditions": [
+        "Login API is available",
+        "Demo active and locked accounts match the documented contract"
+      ],
+      "steps": [
+        "POST /api/login with the supplied username and password as JSON",
+        "Verify HTTP 200",
+        "Verify response message: Welcome, qa.user!"
+      ],
+      "data": {
+        "username": "qa.user",
+        "password": "DemoPass123!"
+      },
+      "expected": {
+        "status": 200,
+        "message": "Welcome, qa.user!"
+      }
+    },
+    {
+      "id": "API-002",
+      "type": "API",
+      "title": "Reject invalid credentials",
+      "requirementIds": [
+        "AC-02",
+        "AC-05"
+      ],
+      "preconditions": [
+        "Login API is available",
+        "Demo active and locked accounts match the documented contract"
+      ],
+      "steps": [
+        "POST /api/login with the supplied username and password as JSON",
+        "Verify HTTP 401",
+        "Verify response message: Invalid credentials"
+      ],
+      "data": {
+        "username": "qa.user",
+        "password": "WrongPassword!"
+      },
+      "expected": {
+        "status": 401,
+        "message": "Invalid credentials"
+      }
+    },
+    {
+      "id": "API-003",
+      "type": "API",
+      "title": "Require a username",
+      "requirementIds": [
+        "AC-03",
+        "AC-05"
+      ],
+      "preconditions": [
+        "Login API is available",
+        "Demo active and locked accounts match the documented contract"
+      ],
+      "steps": [
+        "POST /api/login with the supplied username and password as JSON",
+        "Verify HTTP 400",
+        "Verify response message: Username and password are required"
+      ],
+      "data": {
+        "username": "",
+        "password": "DemoPass123!"
+      },
+      "expected": {
+        "status": 400,
+        "message": "Username and password are required"
+      }
+    },
+    {
+      "id": "API-004",
+      "type": "API",
+      "title": "Require a password",
+      "requirementIds": [
+        "AC-03",
+        "AC-05"
+      ],
+      "preconditions": [
+        "Login API is available",
+        "Demo active and locked accounts match the documented contract"
+      ],
+      "steps": [
+        "POST /api/login with the supplied username and password as JSON",
+        "Verify HTTP 400",
+        "Verify response message: Username and password are required"
+      ],
+      "data": {
+        "username": "qa.user",
+        "password": ""
+      },
+      "expected": {
+        "status": 400,
+        "message": "Username and password are required"
+      }
+    },
+    {
+      "id": "API-005",
+      "type": "API",
+      "title": "Reject a locked account",
+      "requirementIds": [
+        "AC-04",
+        "AC-05"
+      ],
+      "preconditions": [
+        "Login API is available",
+        "Demo active and locked accounts match the documented contract"
+      ],
+      "steps": [
+        "POST /api/login with the supplied username and password as JSON",
+        "Verify HTTP 423",
+        "Verify response message: Account is locked"
+      ],
+      "data": {
+        "username": "locked.user",
+        "password": "DemoPass123!"
+      },
+      "expected": {
+        "status": 423,
+        "message": "Account is locked"
+      }
+    },
+    {
+      "id": "UI-006",
+      "type": "UI",
+      "title": "Reject submission when both fields are empty",
+      "requirementIds": [
+        "AC-03"
+      ],
+      "preconditions": [
+        "Login page is available; no user is logged in"
+      ],
+      "steps": [
+        "Open the login page",
+        "Leave Username and Password empty",
+        "Click Log in",
+        "Read the validation message"
+      ],
+      "data": {
+        "username": "",
+        "password": ""
+      },
+      "expected": {
+        "status": 400,
+        "message": "Username and password are required"
+      }
+    },
+    {
+      "id": "API-006",
+      "type": "API",
+      "title": "Reject API login when both credentials are empty",
+      "requirementIds": [
+        "AC-03",
+        "AC-05"
+      ],
+      "preconditions": [
+        "Login API is available"
+      ],
+      "steps": [
+        "POST /api/login with empty username and password strings",
+        "Verify HTTP 400 and the required-fields message"
+      ],
+      "data": {
+        "username": "",
+        "password": ""
+      },
+      "expected": {
+        "status": 400,
+        "message": "Username and password are required"
+      }
+    }
+  ],
+  "sources": {
+    "UI-001": {
+      "source": "generated",
+      "provider": "mock",
+      "model": "deterministic-demo-v1",
+      "mocked": true,
+      "timestamp": "2026-09-10T10:27:45.043Z"
+    },
+    "UI-002": {
+      "source": "generated",
+      "provider": "mock",
+      "model": "deterministic-demo-v1",
+      "mocked": true,
+      "timestamp": "2026-09-10T10:27:45.043Z"
+    },
+    "UI-003": {
+      "source": "generated",
+      "provider": "mock",
+      "model": "deterministic-demo-v1",
+      "mocked": true,
+      "timestamp": "2026-09-10T10:27:45.043Z"
+    },
+    "UI-004": {
+      "source": "generated",
+      "provider": "mock",
+      "model": "deterministic-demo-v1",
+      "mocked": true,
+      "timestamp": "2026-09-10T10:27:45.043Z"
+    },
+    "UI-005": {
+      "source": "generated",
+      "provider": "mock",
+      "model": "deterministic-demo-v1",
+      "mocked": true,
+      "timestamp": "2026-09-10T10:27:45.043Z"
+    },
+    "API-001": {
+      "source": "generated",
+      "provider": "mock",
+      "model": "deterministic-demo-v1",
+      "mocked": true,
+      "timestamp": "2026-09-10T10:27:45.043Z"
+    },
+    "API-002": {
+      "source": "generated",
+      "provider": "mock",
+      "model": "deterministic-demo-v1",
+      "mocked": true,
+      "timestamp": "2026-09-10T10:27:45.043Z"
+    },
+    "API-003": {
+      "source": "generated",
+      "provider": "mock",
+      "model": "deterministic-demo-v1",
+      "mocked": true,
+      "timestamp": "2026-09-10T10:27:45.043Z"
+    },
+    "API-004": {
+      "source": "generated",
+      "provider": "mock",
+      "model": "deterministic-demo-v1",
+      "mocked": true,
+      "timestamp": "2026-09-10T10:27:45.043Z"
+    },
+    "API-005": {
+      "source": "generated",
+      "provider": "mock",
+      "model": "deterministic-demo-v1",
+      "mocked": true,
+      "timestamp": "2026-09-10T10:27:45.043Z"
+    },
+    "UI-006": {
+      "source": "manual",
+      "timestamp": "2026-09-10T10:27:45.257Z"
+    },
+    "API-006": {
+      "source": "manual",
+      "timestamp": "2026-09-10T10:27:45.258Z"
+    }
+  }
+}

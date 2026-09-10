@@ -1,6 +1,6 @@
 # Assessment coverage
 
-Authoritative source: [Assessment -Sr AI QA Automation Testing,.md](<../Assessment -Sr AI QA Automation Testing,.md>).
+Authoritative source: the supplied **Assessment -Sr AI QA Automation Testing** document (provided separately).
 
 | Requirement | Implementation / evidence |
 | --- | --- |
@@ -28,4 +28,4 @@ Authoritative source: [Assessment -Sr AI QA Automation Testing,.md](<../Assessme
 | AC-04: locked user | UI-005 | API-005 |
 | AC-05: appropriate API status codes | API expectations documented alongside UI results | API-001 through API-006 assert 200/401/400/423 per scenario |
 
-Review signatures in the included verification artifacts are demonstration records, not the candidate's personal approval. Follow the README review steps before presenting the prototype.
+Review signatures in `samples/` are assistant demonstration records. The separately retained [demo evidence](../evidence/README.md) includes the reviews recorded as Wasim syed on 10 Sep 2026. Follow the README review steps when reproducing the prototype.

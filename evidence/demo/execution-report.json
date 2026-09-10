@@ -1,0 +1,678 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Git workspace\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "C:\\Git workspace\\work\\demo\\playwright.config.js"
+    ],
+    "configFile": "C:\\Git workspace\\work\\demo\\playwright.config.js",
+    "rootDir": "C:/Git workspace/work/demo/automation/d968c349-5635-4b58-9444-3efd0196269f",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Git workspace/work/demo/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Git workspace/work/demo/automation/d968c349-5635-4b58-9444-3efd0196269f",
+        "testIgnore": [],
+        "testMatch": [
+          "**/UI-001.spec.js",
+          "**/UI-002.spec.js",
+          "**/UI-003.spec.js",
+          "**/UI-004.spec.js",
+          "**/UI-005.spec.js",
+          "**/API-001.spec.js",
+          "**/API-002.spec.js",
+          "**/API-003.spec.js",
+          "**/API-004.spec.js",
+          "**/API-005.spec.js",
+          "**/UI-006.spec.js",
+          "**/API-006.spec.js"
+        ],
+        "timeout": 15000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "C:\\Git workspace\\work\\demo\\execution-report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "node demo/server.js",
+      "cwd": "C:\\Git workspace",
+      "url": "http://127.0.0.1:4173/health",
+      "reuseExistingServer": false,
+      "timeout": 15000,
+      "env": {
+        "DEMO_PORT": "4173"
+      }
+    }
+  },
+  "suites": [
+    {
+      "title": "API-001.spec.js",
+      "file": "API-001.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "API-001: Log in with valid credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 15000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 47,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-10T10:33:31.105Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f4fd8e521d4741462f5e-6527258e2194e64fd547",
+          "file": "API-001.spec.js",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "API-002.spec.js",
+      "file": "API-002.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "API-002: Reject invalid credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 15000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 26,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-10T10:33:31.207Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "09f59257fcc3813d921f-6398c928d02dd294fc4e",
+          "file": "API-002.spec.js",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "API-003.spec.js",
+      "file": "API-003.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "API-003: Require a username",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 15000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 20,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-10T10:33:31.261Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eb61892f693863e2dafd-97b64c50f4f98d1f2965",
+          "file": "API-003.spec.js",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "API-004.spec.js",
+      "file": "API-004.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "API-004: Require a password",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 15000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 19,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-10T10:33:31.310Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "64ec7d8d0750c8985e1f-5f3e952a9fa1eaf55d75",
+          "file": "API-004.spec.js",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "API-005.spec.js",
+      "file": "API-005.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "API-005: Reject a locked account",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 15000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 43,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m423\u001b[39m\nReceived: \u001b[31m200\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m423\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n    at C:\\Git workspace\\work\\demo\\automation\\d968c349-5635-4b58-9444-3efd0196269f\\API-005.spec.js:7:29",
+                    "location": {
+                      "file": "C:\\Git workspace\\work\\demo\\automation\\d968c349-5635-4b58-9444-3efd0196269f\\API-005.spec.js",
+                      "column": 29,
+                      "line": 7
+                    },
+                    "snippet": "\u001b[0m \u001b[90m  5 |\u001b[39m test(\u001b[32m\"API-005: Reject a locked account\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ request }) \u001b[33m=>\u001b[39m {\n \u001b[90m  6 |\u001b[39m   \u001b[36mconst\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request\u001b[33m.\u001b[39mpost(\u001b[32m\"/api/login\"\u001b[39m\u001b[33m,\u001b[39m { data\u001b[33m:\u001b[39m {\u001b[32m\"username\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"locked.user\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"password\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"DemoPass123!\"\u001b[39m} })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  7 |\u001b[39m   expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m423\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  8 |\u001b[39m   expect(\u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mjson())\u001b[33m.\u001b[39mtoEqual({ message\u001b[33m:\u001b[39m \u001b[32m\"Account is locked\"\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m  9 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 10 |\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Git workspace\\work\\demo\\automation\\d968c349-5635-4b58-9444-3efd0196269f\\API-005.spec.js",
+                        "column": 29,
+                        "line": 7
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m423\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n\n\u001b[0m \u001b[90m  5 |\u001b[39m test(\u001b[32m\"API-005: Reject a locked account\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ request }) \u001b[33m=>\u001b[39m {\n \u001b[90m  6 |\u001b[39m   \u001b[36mconst\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request\u001b[33m.\u001b[39mpost(\u001b[32m\"/api/login\"\u001b[39m\u001b[33m,\u001b[39m { data\u001b[33m:\u001b[39m {\u001b[32m\"username\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"locked.user\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"password\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"DemoPass123!\"\u001b[39m} })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  7 |\u001b[39m   expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m423\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  8 |\u001b[39m   expect(\u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mjson())\u001b[33m.\u001b[39mtoEqual({ message\u001b[33m:\u001b[39m \u001b[32m\"Account is locked\"\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m  9 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 10 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Git workspace\\work\\demo\\automation\\d968c349-5635-4b58-9444-3efd0196269f\\API-005.spec.js:7:29\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-10T10:33:31.361Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Git workspace\\work\\demo\\test-results\\API-005-API-005-Reject-a-locked-account\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Git workspace\\work\\demo\\test-results\\API-005-API-005-Reject-a-locked-account\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Git workspace\\work\\demo\\automation\\d968c349-5635-4b58-9444-3efd0196269f\\API-005.spec.js",
+                    "column": 29,
+                    "line": 7
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "134a25d597758958efda-a7e9bbbee06daf972471",
+          "file": "API-005.spec.js",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "API-006.spec.js",
+      "file": "API-006.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "API-006: Reject API login when both credentials are empty",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 15000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 48,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-10T10:33:31.926Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5533efaf7aa046c3c50d-1a4c073e0fe832f36bb2",
+          "file": "API-006.spec.js",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "UI-001.spec.js",
+      "file": "UI-001.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "UI-001: Log in with valid credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 15000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 348,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-10T10:33:32.025Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a97ed3b930676c345077-16d4b69a3f436ce73880",
+          "file": "UI-001.spec.js",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "UI-002.spec.js",
+      "file": "UI-002.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "UI-002: Reject invalid credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 15000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 292,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-10T10:33:32.527Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "18104a4cedd737d8ab09-1a8e1cac2918ea1fa562",
+          "file": "UI-002.spec.js",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "UI-003.spec.js",
+      "file": "UI-003.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "UI-003: Require a username",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 15000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 293,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-10T10:33:32.843Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "991611adb194632b1553-9d5b64dc5b45adb6cd96",
+          "file": "UI-003.spec.js",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "UI-004.spec.js",
+      "file": "UI-004.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "UI-004: Require a password",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 15000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 294,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-10T10:33:33.161Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d77029c79b432f48a34d-fc70dfe7c234fde856a7",
+          "file": "UI-004.spec.js",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "UI-005.spec.js",
+      "file": "UI-005.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "UI-005: Reject a locked account",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 15000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5364,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('status')\nExpected: \u001b[32m\"\u001b[7mAccount is\u001b[27m locked\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mWelcome,\u001b[27m locked\u001b[7m.user!\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByRole('status') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('status')\u001b[22m\n\u001b[2m    14 × locator resolved to <div role=\"status\" aria-live=\"polite\">Welcome, locked.user!</div>\u001b[22m\n\u001b[2m       - unexpected value \"Welcome, locked.user!\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('status')\nExpected: \u001b[32m\"\u001b[7mAccount is\u001b[27m locked\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mWelcome,\u001b[27m locked\u001b[7m.user!\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByRole('status') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('status')\u001b[22m\n\u001b[2m    14 × locator resolved to <div role=\"status\" aria-live=\"polite\">Welcome, locked.user!</div>\u001b[22m\n\u001b[2m       - unexpected value \"Welcome, locked.user!\"\u001b[22m\n\n    at C:\\Git workspace\\work\\demo\\automation\\d968c349-5635-4b58-9444-3efd0196269f\\UI-005.spec.js:10:42",
+                    "location": {
+                      "file": "C:\\Git workspace\\work\\demo\\automation\\d968c349-5635-4b58-9444-3efd0196269f\\UI-005.spec.js",
+                      "column": 42,
+                      "line": 10
+                    },
+                    "snippet": "\u001b[0m \u001b[90m  8 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByLabel(\u001b[32m\"Password\"\u001b[39m\u001b[33m,\u001b[39m { exact\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m.\u001b[39mfill(\u001b[32m\"DemoPass123!\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m\"Log in\"\u001b[39m\u001b[33m,\u001b[39m exact\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'status'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m\"Account is locked\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 12 |\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Git workspace\\work\\demo\\automation\\d968c349-5635-4b58-9444-3efd0196269f\\UI-005.spec.js",
+                        "column": 42,
+                        "line": 10
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('status')\nExpected: \u001b[32m\"\u001b[7mAccount is\u001b[27m locked\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mWelcome,\u001b[27m locked\u001b[7m.user!\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByRole('status') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('status')\u001b[22m\n\u001b[2m    14 × locator resolved to <div role=\"status\" aria-live=\"polite\">Welcome, locked.user!</div>\u001b[22m\n\u001b[2m       - unexpected value \"Welcome, locked.user!\"\u001b[22m\n\n\n\u001b[0m \u001b[90m  8 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByLabel(\u001b[32m\"Password\"\u001b[39m\u001b[33m,\u001b[39m { exact\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m.\u001b[39mfill(\u001b[32m\"DemoPass123!\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m\"Log in\"\u001b[39m\u001b[33m,\u001b[39m exact\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'status'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m\"Account is locked\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 12 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Git workspace\\work\\demo\\automation\\d968c349-5635-4b58-9444-3efd0196269f\\UI-005.spec.js:10:42\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-10T10:33:33.476Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Git workspace\\work\\demo\\test-results\\UI-005-UI-005-Reject-a-locked-account\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Git workspace\\work\\demo\\test-results\\UI-005-UI-005-Reject-a-locked-account\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Git workspace\\work\\demo\\test-results\\UI-005-UI-005-Reject-a-locked-account\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Git workspace\\work\\demo\\automation\\d968c349-5635-4b58-9444-3efd0196269f\\UI-005.spec.js",
+                    "column": 42,
+                    "line": 10
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "aa53869e53a039ea651b-652ea21232d852588e2d",
+          "file": "UI-005.spec.js",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "UI-006.spec.js",
+      "file": "UI-006.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "UI-006: Reject submission when both fields are empty",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 15000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 339,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-10T10:33:39.461Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1df3ba7f59816484dd1f-c741c352395eb77bffd7",
+          "file": "UI-006.spec.js",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-10T10:33:30.260Z",
+    "duration": 10109.298,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

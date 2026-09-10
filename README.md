@@ -2,7 +2,9 @@
 
 A lightweight Senior AI QA Automation assessment prototype for the **User Login** feature. It turns acceptance criteria or manually authored tests into reviewable Playwright scripts, runs approved scripts against a local demo, and categorizes execution failures.
 
-Scope follows [the supplied assessment](<Assessment -Sr AI QA Automation Testing,.md>). The interface is a CLI plus editable JSON and JavaScript files. There is no database, hosted application, agent framework, or advanced review UI.
+Scope follows the supplied assessment; see the [requirement coverage map](docs/assessment-coverage.md). The interface is a CLI plus editable JSON and JavaScript files. There is no database, hosted application, agent framework, or advanced review UI.
+
+The execution PDF is supplied separately as an email attachment. Its supporting reports, reviewed scripts, AI audits and captured output are available in [evidence/README.md](evidence/README.md), alongside the original [sample outputs](samples/README.md).
 
 ## Run locally
 

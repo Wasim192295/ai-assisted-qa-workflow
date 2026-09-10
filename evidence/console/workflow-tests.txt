@@ -1,0 +1,22 @@
+﻿
+> ai-assisted-qa-workflow@1.0.0 test
+> node --test tests/*.test.js
+
+✔ live provider sends schema and prompts, validates JSON, and never falls back silently (55.5287ms)
+✔ nested report preserves failures, recovered retries, skips and all triage categories (11.5407ms)
+✔ project runs stay distinct; expected failures, unexpected passes and interruptions are handled (1.1919ms)
+✔ malformed and unsupported reports fail explicitly (0.964ms)
+✔ an assertion difference alone is never called a proven product defect (0.3329ms)
+✔ end-to-end gates: no implicit approval; source and script edits invalidate approval (675.7333ms)
+✔ manual input can initialize workflow; duplicate IDs and malformed input leave state intact (414.3303ms)
+✔ rejecting a previously approved case or script blocks execution (587.0031ms)
+✔ changing contract invalidates case approval; mock does not silently ignore changed criteria (40.4809ms)
+✔ workspace must stay inside project work directory (0.7933ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1929.1345

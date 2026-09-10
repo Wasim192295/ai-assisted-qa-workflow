@@ -1,0 +1,16 @@
+﻿┌─────────┬───────────┬───────┬─────────────┬────────────┬────────────┬────────────────────────────────────────────────────┐
+│ (index) │ id        │ type  │ source      │ caseReview │ automation │ title                                              │
+├─────────┼───────────┼───────┼─────────────┼────────────┼────────────┼────────────────────────────────────────────────────┤
+│ 0       │ 'UI-001'  │ 'UI'  │ 'generated' │ 'approve'  │ 'approve'  │ 'Log in with valid credentials'                    │
+│ 1       │ 'UI-002'  │ 'UI'  │ 'generated' │ 'approve'  │ 'approve'  │ 'Reject invalid credentials'                       │
+│ 2       │ 'UI-003'  │ 'UI'  │ 'generated' │ 'approve'  │ 'approve'  │ 'Require a username'                               │
+│ 3       │ 'UI-004'  │ 'UI'  │ 'generated' │ 'approve'  │ 'approve'  │ 'Require a password'                               │
+│ 4       │ 'UI-005'  │ 'UI'  │ 'generated' │ 'approve'  │ 'approve'  │ 'Reject a locked account'                          │
+│ 5       │ 'API-001' │ 'API' │ 'generated' │ 'approve'  │ 'approve'  │ 'Log in with valid credentials'                    │
+│ 6       │ 'API-002' │ 'API' │ 'generated' │ 'approve'  │ 'approve'  │ 'Reject invalid credentials'                       │
+│ 7       │ 'API-003' │ 'API' │ 'generated' │ 'approve'  │ 'approve'  │ 'Require a username'                               │
+│ 8       │ 'API-004' │ 'API' │ 'generated' │ 'approve'  │ 'approve'  │ 'Require a password'                               │
+│ 9       │ 'API-005' │ 'API' │ 'generated' │ 'approve'  │ 'approve'  │ 'Reject a locked account'                          │
+│ 10      │ 'UI-006'  │ 'UI'  │ 'manual'    │ 'approve'  │ 'approve'  │ 'Reject submission when both fields are empty'     │
+│ 11      │ 'API-006' │ 'API' │ 'manual'    │ 'approve'  │ 'approve'  │ 'Reject API login when both credentials are empty' │
+└─────────┴───────────┴───────┴─────────────┴────────────┴────────────┴────────────────────────────────────────────────────┘

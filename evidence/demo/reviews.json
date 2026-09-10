@@ -1,0 +1,392 @@
+{
+  "cases": {
+    "UI-001": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "1a5a2205b7626336a4ee09ca299dc243a9928dc8bcd5b4aed34f7206f74022b2"
+    },
+    "UI-002": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "540e5931057f4112030309987d04f1ff7a78010edf4bc9080118d2f3eedee771"
+    },
+    "UI-003": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "63a4d3721ef0b4bde63e6ed7c7d1571fea833cbad152033b611740112294d590"
+    },
+    "UI-004": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "94104bfcbfc5aaa48426cc44f81ea8879a1c5646404298f569ba964b6c2ebe04"
+    },
+    "UI-005": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "6c1d121c5592a81d4e73941a2bbb6fb65136473ead2cf3ffac9e7c71a5b34fe3"
+    },
+    "API-001": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "d283a58beb0db7982f13c9570aa64052c8a7ceee324f6a5c4850262f3d06fb39"
+    },
+    "API-002": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "874df513dcba55df09466f700bc4cb314ba58bbdc52f8cf879db3f018ceb36ba"
+    },
+    "API-003": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "ed862e60baaa1fc37ab85787ca4b03ae0faadb6f024a477a40aabceaab563d88"
+    },
+    "API-004": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "06e2744f986bbe18542ae1e3b6590b7d367d7651cbec1405cb01e13fe251e1b9"
+    },
+    "API-005": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "7ba6ccc47ff25cecce5c047fd9e59636bbfc19c4bbc12d1471ffecebb3fe2021"
+    },
+    "UI-006": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "96f377b51f4e5b6d94287fbdb4ddaca2e7488905e959e41527a57d0a7a02f099"
+    },
+    "API-006": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "32c3c76ec7a60a6987e9e3eacba935b6bc40259f5024d9bd712b4bf3e2a4ad7a"
+    }
+  },
+  "automation": {
+    "automation/d968c349-5635-4b58-9444-3efd0196269f/UI-001.spec.js": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "9ed69e9564fc9eeb5aea61eb59db1a2a6c208fc8eb49baf7235b0c7cfb899358"
+    },
+    "automation/d968c349-5635-4b58-9444-3efd0196269f/UI-002.spec.js": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "6f8070bc325891810b86e1a6f789c5e53eb6af7ebe02985868c53ebe08929d32"
+    },
+    "automation/d968c349-5635-4b58-9444-3efd0196269f/UI-003.spec.js": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "e665e4676d64339a1a3b21c5c78f1f2b3ec78b25ab9b06ca8cd451d18756c90d"
+    },
+    "automation/d968c349-5635-4b58-9444-3efd0196269f/UI-004.spec.js": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "60e5be2e3c94a3d3d8696d4a4e3cdbef238219e0ee504b5f0d593ebf3b24b24d"
+    },
+    "automation/d968c349-5635-4b58-9444-3efd0196269f/UI-005.spec.js": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "56fc311915c5fee57443a25b4a74315ba62003fd9e43403f6bb034b8e845d083"
+    },
+    "automation/d968c349-5635-4b58-9444-3efd0196269f/API-001.spec.js": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "8bc0eed9793cd075104c3e00bdc76f047723e90017a5a6dde0620a37b784c780"
+    },
+    "automation/d968c349-5635-4b58-9444-3efd0196269f/API-002.spec.js": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "01fd8a0bc6e89b00490e2329df4b1cd60a62e2f7fa7bbea730155de6825132aa"
+    },
+    "automation/d968c349-5635-4b58-9444-3efd0196269f/API-003.spec.js": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "2972775e6a8682b2e4ddb7da9330ed671bce2064725db4b49a950725b3cd3ce2"
+    },
+    "automation/d968c349-5635-4b58-9444-3efd0196269f/API-004.spec.js": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "673c97ac930ed267d26de2cf9ddfed58d9d53446bcb0f0decb46e32a394c6e1e"
+    },
+    "automation/d968c349-5635-4b58-9444-3efd0196269f/API-005.spec.js": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "59745d3e4417b4c4a8b69e55b9367cb230dc1428589635aa84f98bcc80f2c105"
+    },
+    "automation/d968c349-5635-4b58-9444-3efd0196269f/UI-006.spec.js": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "ea7f10abe849f0cafd7662c4a3a509bc0843f51ee4112fdc68424af7e1dbf0d9"
+    },
+    "automation/d968c349-5635-4b58-9444-3efd0196269f/API-006.spec.js": {
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "26ac6cfeeaa4d737622fb205897072970b1aab02e63ffd5e75040989337a78ee"
+    }
+  },
+  "history": [
+    {
+      "kind": "cases",
+      "id": "UI-001",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "1a5a2205b7626336a4ee09ca299dc243a9928dc8bcd5b4aed34f7206f74022b2"
+    },
+    {
+      "kind": "cases",
+      "id": "UI-002",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "540e5931057f4112030309987d04f1ff7a78010edf4bc9080118d2f3eedee771"
+    },
+    {
+      "kind": "cases",
+      "id": "UI-003",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "63a4d3721ef0b4bde63e6ed7c7d1571fea833cbad152033b611740112294d590"
+    },
+    {
+      "kind": "cases",
+      "id": "UI-004",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "94104bfcbfc5aaa48426cc44f81ea8879a1c5646404298f569ba964b6c2ebe04"
+    },
+    {
+      "kind": "cases",
+      "id": "UI-005",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "6c1d121c5592a81d4e73941a2bbb6fb65136473ead2cf3ffac9e7c71a5b34fe3"
+    },
+    {
+      "kind": "cases",
+      "id": "API-001",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "d283a58beb0db7982f13c9570aa64052c8a7ceee324f6a5c4850262f3d06fb39"
+    },
+    {
+      "kind": "cases",
+      "id": "API-002",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "874df513dcba55df09466f700bc4cb314ba58bbdc52f8cf879db3f018ceb36ba"
+    },
+    {
+      "kind": "cases",
+      "id": "API-003",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "ed862e60baaa1fc37ab85787ca4b03ae0faadb6f024a477a40aabceaab563d88"
+    },
+    {
+      "kind": "cases",
+      "id": "API-004",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "06e2744f986bbe18542ae1e3b6590b7d367d7651cbec1405cb01e13fe251e1b9"
+    },
+    {
+      "kind": "cases",
+      "id": "API-005",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "7ba6ccc47ff25cecce5c047fd9e59636bbfc19c4bbc12d1471ffecebb3fe2021"
+    },
+    {
+      "kind": "cases",
+      "id": "UI-006",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "96f377b51f4e5b6d94287fbdb4ddaca2e7488905e959e41527a57d0a7a02f099"
+    },
+    {
+      "kind": "cases",
+      "id": "API-006",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed coverage, test data and expectations",
+      "timestamp": "2026-09-10T10:29:09.735Z",
+      "digest": "32c3c76ec7a60a6987e9e3eacba935b6bc40259f5024d9bd712b4bf3e2a4ad7a"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/d968c349-5635-4b58-9444-3efd0196269f/UI-001.spec.js",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "9ed69e9564fc9eeb5aea61eb59db1a2a6c208fc8eb49baf7235b0c7cfb899358"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/d968c349-5635-4b58-9444-3efd0196269f/UI-002.spec.js",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "6f8070bc325891810b86e1a6f789c5e53eb6af7ebe02985868c53ebe08929d32"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/d968c349-5635-4b58-9444-3efd0196269f/UI-003.spec.js",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "e665e4676d64339a1a3b21c5c78f1f2b3ec78b25ab9b06ca8cd451d18756c90d"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/d968c349-5635-4b58-9444-3efd0196269f/UI-004.spec.js",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "60e5be2e3c94a3d3d8696d4a4e3cdbef238219e0ee504b5f0d593ebf3b24b24d"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/d968c349-5635-4b58-9444-3efd0196269f/UI-005.spec.js",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "56fc311915c5fee57443a25b4a74315ba62003fd9e43403f6bb034b8e845d083"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/d968c349-5635-4b58-9444-3efd0196269f/API-001.spec.js",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "8bc0eed9793cd075104c3e00bdc76f047723e90017a5a6dde0620a37b784c780"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/d968c349-5635-4b58-9444-3efd0196269f/API-002.spec.js",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "01fd8a0bc6e89b00490e2329df4b1cd60a62e2f7fa7bbea730155de6825132aa"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/d968c349-5635-4b58-9444-3efd0196269f/API-003.spec.js",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "2972775e6a8682b2e4ddb7da9330ed671bce2064725db4b49a950725b3cd3ce2"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/d968c349-5635-4b58-9444-3efd0196269f/API-004.spec.js",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "673c97ac930ed267d26de2cf9ddfed58d9d53446bcb0f0decb46e32a394c6e1e"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/d968c349-5635-4b58-9444-3efd0196269f/API-005.spec.js",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "59745d3e4417b4c4a8b69e55b9367cb230dc1428589635aa84f98bcc80f2c105"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/d968c349-5635-4b58-9444-3efd0196269f/UI-006.spec.js",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "ea7f10abe849f0cafd7662c4a3a509bc0843f51ee4112fdc68424af7e1dbf0d9"
+    },
+    {
+      "kind": "automation",
+      "id": "automation/d968c349-5635-4b58-9444-3efd0196269f/API-006.spec.js",
+      "decision": "approve",
+      "reviewer": "Wasim syed",
+      "note": "Reviewed source against approved cases",
+      "timestamp": "2026-09-10T10:30:26.627Z",
+      "digest": "26ac6cfeeaa4d737622fb205897072970b1aab02e63ffd5e75040989337a78ee"
+    }
+  ]
+}

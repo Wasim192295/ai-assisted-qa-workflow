@@ -1,0 +1,82 @@
+{
+  "provenance": {
+    "provider": "mock",
+    "model": "deterministic-demo-v1",
+    "mocked": true,
+    "timestamp": "2026-09-10T10:29:10.006Z"
+  },
+  "artifacts": [
+    {
+      "caseId": "UI-001",
+      "file": "automation/d968c349-5635-4b58-9444-3efd0196269f/UI-001.spec.js",
+      "caseDigest": "1a5a2205b7626336a4ee09ca299dc243a9928dc8bcd5b4aed34f7206f74022b2",
+      "generatedDigest": "f33bbb622707d5a89fdee475d460cadd59ce933169c1c6205098738181272805"
+    },
+    {
+      "caseId": "UI-002",
+      "file": "automation/d968c349-5635-4b58-9444-3efd0196269f/UI-002.spec.js",
+      "caseDigest": "540e5931057f4112030309987d04f1ff7a78010edf4bc9080118d2f3eedee771",
+      "generatedDigest": "b96d77fe1b1a47e5e5bee376cd06a890d7ae549fcb18f96b1a688a4bba9c0bf7"
+    },
+    {
+      "caseId": "UI-003",
+      "file": "automation/d968c349-5635-4b58-9444-3efd0196269f/UI-003.spec.js",
+      "caseDigest": "63a4d3721ef0b4bde63e6ed7c7d1571fea833cbad152033b611740112294d590",
+      "generatedDigest": "ca86fd37ca7536f8f751bd6d5e4598049de83f00424056895663f07119a2effa"
+    },
+    {
+      "caseId": "UI-004",
+      "file": "automation/d968c349-5635-4b58-9444-3efd0196269f/UI-004.spec.js",
+      "caseDigest": "94104bfcbfc5aaa48426cc44f81ea8879a1c5646404298f569ba964b6c2ebe04",
+      "generatedDigest": "fcddd46386fa036a553a419dd94971ad854a348e2af8ae113f7b908eb33e0803"
+    },
+    {
+      "caseId": "UI-005",
+      "file": "automation/d968c349-5635-4b58-9444-3efd0196269f/UI-005.spec.js",
+      "caseDigest": "6c1d121c5592a81d4e73941a2bbb6fb65136473ead2cf3ffac9e7c71a5b34fe3",
+      "generatedDigest": "7d1bf831612ff50d7ebcaa880d26a558e7f0b8dfcdb18b8fdbd306d911a3b959"
+    },
+    {
+      "caseId": "API-001",
+      "file": "automation/d968c349-5635-4b58-9444-3efd0196269f/API-001.spec.js",
+      "caseDigest": "d283a58beb0db7982f13c9570aa64052c8a7ceee324f6a5c4850262f3d06fb39",
+      "generatedDigest": "b56374672dc1d1b936caa9b9755a12c901b6dadf1973886332460926844a1429"
+    },
+    {
+      "caseId": "API-002",
+      "file": "automation/d968c349-5635-4b58-9444-3efd0196269f/API-002.spec.js",
+      "caseDigest": "874df513dcba55df09466f700bc4cb314ba58bbdc52f8cf879db3f018ceb36ba",
+      "generatedDigest": "492820f82cdbffba373d6d86478d2455bfb8deee8d815044ac110361a55aa6ed"
+    },
+    {
+      "caseId": "API-003",
+      "file": "automation/d968c349-5635-4b58-9444-3efd0196269f/API-003.spec.js",
+      "caseDigest": "ed862e60baaa1fc37ab85787ca4b03ae0faadb6f024a477a40aabceaab563d88",
+      "generatedDigest": "58337003b99d56ce0d83625d253fe23b7708214a0f4b7b6885274574567e5edc"
+    },
+    {
+      "caseId": "API-004",
+      "file": "automation/d968c349-5635-4b58-9444-3efd0196269f/API-004.spec.js",
+      "caseDigest": "06e2744f986bbe18542ae1e3b6590b7d367d7651cbec1405cb01e13fe251e1b9",
+      "generatedDigest": "7803a37f19c8ee13475ca680db71d3bf106bc3d9ae9cafa0575d696863edf89f"
+    },
+    {
+      "caseId": "API-005",
+      "file": "automation/d968c349-5635-4b58-9444-3efd0196269f/API-005.spec.js",
+      "caseDigest": "7ba6ccc47ff25cecce5c047fd9e59636bbfc19c4bbc12d1471ffecebb3fe2021",
+      "generatedDigest": "3e39d4c20b419ae06528d13d4906c1aef999e13e525b9427ae0074cf84a4a974"
+    },
+    {
+      "caseId": "UI-006",
+      "file": "automation/d968c349-5635-4b58-9444-3efd0196269f/UI-006.spec.js",
+      "caseDigest": "96f377b51f4e5b6d94287fbdb4ddaca2e7488905e959e41527a57d0a7a02f099",
+      "generatedDigest": "675ebed9cf3b4a895a998c8708ebcbe716028bdea1812ec84c3733e8ed8aa35b"
+    },
+    {
+      "caseId": "API-006",
+      "file": "automation/d968c349-5635-4b58-9444-3efd0196269f/API-006.spec.js",
+      "caseDigest": "32c3c76ec7a60a6987e9e3eacba935b6bc40259f5024d9bd712b4bf3e2a4ad7a",
+      "generatedDigest": "d43c62a6b54e0e571e08764fd59dd04f4bae024fa8871028b82949cfa191f679"
+    }
+  ]
+}
